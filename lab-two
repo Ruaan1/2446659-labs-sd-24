@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab-two</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        header{
+            background-color: black;
+            display: flex;
+            font-size: 15px;
+        }
+        .Welcome{
+            color: white;
+            margin-left: 80px;
+            margin-right: 20px;
+            padding: 15px;
+        }
+        .right_info{
+            color: white;
+            display: flex;
+            margin-left: 400px;
+            padding: 25px;
+        }
+        .About_Us{
+            display: inline-block;
+            margin-left:20px;
+            margin-right: 20px;
+        }
+        .Services{
+            display: inline-block;
+            margin-left:20px;
+            margin-right: 20px;
+        }
+        .Contact_Us{
+            display: inline-block;
+            margin-left:20px;
+            margin-right: 20px;
+        }
+        .H2{
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+        .Info_1{
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
+        .Cars{
+            width: 600px;
+            height: 400px;
+        }
+        .Web_Pic{
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            padding: 5px;
+        }
+        .Graphic_Pic{
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            padding: 5px;
+        }
+        .Both{
+            display: flex;
+            margin-left: 20px;
+        }
+        .H3{
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .Info_2{
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
+        .Info_3{
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+        }
+        .Last{
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <article class="Welcome">
+            <h1>Welcome to Software Design Website</h1>
+        </article>
+        <article class="right_info">
+            <p class="About_Us">About Us</p>
+            <p class="Services">Services</p>
+            <p class="Contact_Us">Contact Us</p>
+        </article>
+    </header>
+    <section>
+    <article class="H2">
+        <h2>About Us</h2>
+    </article>
+    <p class="Info_1">
+        We are a company dedicated to providng excellent services to our customers.
+    </p>
+    <center><img class="Cars" src="Cars.jpeg"/></center>
+    </section>
+    <section>
+        <center><h2>Our Services</h2></center>
+        <article class="Both">
+            <article class="Web_Pic">
+            <article class="H3">
+                <h3>Web development</h3>
+            </article>
+            <p class="Info_2">
+                We specialize in creating responsive and user-friendly websites.
+            </p>
+            <img class="Cars" src="Cars.jpeg"/>
+        </article>
+        <article class="Graphic_Pic">
+            <article class="H3">
+                <h3>Graphic Design</h3>
+            </article>
+            <p class="Info_3">
+                Our talented designers can bring your ideas to life with stunning visuals.
+            </p>
+            <img class="Cars" src="Cars.jpeg"/>
+        </article>
+    </article>
+    </section>
+    <footer>
+        <p class="Last">&copy;2024 The Lucky Company.All rights reserved</p>
+    </footer>
+</body>
+</html>
